@@ -1,6 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const dbConnection = require('./config/database');
+const { dbError, winston, error } = require('./middleware/error');
+require('express-async-errors');
 require('./middleware/logger')();
 
 const app = express();
@@ -12,6 +14,10 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 app.use(express.json({ limit: '10mb' }));
 
 app.use('/api/', require('./routes'));
+
+app.use(dbError);
+app.use(winston);
+app.use(error);
 
 dbConnection()
 	.then(() => {

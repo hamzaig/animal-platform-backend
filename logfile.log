@@ -1,0 +1,2508 @@
+{
+  level: 'error',
+  message: 'Cannot convert undefined or null to object Cannot convert undefined or null to object',
+  stack: 'TypeError: Cannot convert undefined or null to object\n' +
+    '    at Function.keys (<anonymous>)\n' +
+    '    at module.exports.dbError (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/middleware/error.js:22:25)\n' +
+    '    at newFn (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle_error (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/node_modules/express/lib/router/layer.js:71:5)\n' +
+    '    at trim_prefix (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/node_modules/express/lib/router/index.js:326:13)\n' +
+    '    at /Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/node_modules/express/lib/router/index.js:286:9\n' +
+    '    at Function.process_params (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/node_modules/express/lib/router/index.js:346:12)\n' +
+    '    at Immediate.next (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/node_modules/express/lib/router/index.js:280:10)\n' +
+    '    at Immediate._onImmediate (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/node_modules/express/lib/router/index.js:646:15)\n' +
+    '    at process.processImmediate (node:internal/timers:473:21)'
+}
+{
+  error: /Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:25
+  	const {email,password} = req.body;
+  	^^^^^
+  
+  SyntaxError: Unexpected token 'const'
+      at Object.compileFunction (node:vm:360:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+      at Module._compile (node:internal/modules/cjs/loader:1123:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+      at Module.load (node:internal/modules/cjs/loader:1037:32)
+      at Module._load (node:internal/modules/cjs/loader:878:12)
+      at Module.require (node:internal/modules/cjs/loader:1061:19)
+      at require (node:internal/modules/cjs/helpers:103:18)
+      at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:20)
+      at Module._compile (node:internal/modules/cjs/loader:1159:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token 'const'\n" +
+    '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:25\n' +
+    '\tconst {email,password} = req.body;\n' +
+    '\t^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token 'const'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  stack: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:25\n' +
+    '\tconst {email,password} = req.body;\n' +
+    '\t^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token 'const'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  exception: true,
+  date: 'Mon Dec 12 2022 12:49:31 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 14181,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 78577664,
+      heapTotal: 35979264,
+      heapUsed: 25648728,
+      external: 19729678,
+      arrayBuffers: 18849005
+    }
+  },
+  os: {
+    loadavg: [ 1.9716796875, 2.88427734375, 2.73486328125 ],
+    uptime: 157589
+  },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 360,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1088,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1213,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1037,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1061,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 103,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1159,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: /Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:33
+  		token.token !== req.token;
+  		                    ^^^^^
+  
+  SyntaxError: missing ) after argument list
+      at Object.compileFunction (node:vm:360:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+      at Module._compile (node:internal/modules/cjs/loader:1123:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+      at Module.load (node:internal/modules/cjs/loader:1037:32)
+      at Module._load (node:internal/modules/cjs/loader:878:12)
+      at Module.require (node:internal/modules/cjs/loader:1061:19)
+      at require (node:internal/modules/cjs/helpers:103:18)
+      at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)
+      at Module._compile (node:internal/modules/cjs/loader:1159:14),
+  level: 'error',
+  message: 'uncaughtException: missing ) after argument list\n' +
+    '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:33\n' +
+    '\t\ttoken.token !== req.token;\n' +
+    '\t\t                    ^^^^^\n' +
+    '\n' +
+    'SyntaxError: missing ) after argument list\n' +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  stack: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:33\n' +
+    '\t\ttoken.token !== req.token;\n' +
+    '\t\t                    ^^^^^\n' +
+    '\n' +
+    'SyntaxError: missing ) after argument list\n' +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  exception: true,
+  date: 'Mon Dec 12 2022 13:14:50 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 15269,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 78594048,
+      heapTotal: 36241408,
+      heapUsed: 25169792,
+      external: 19703863,
+      arrayBuffers: 18823190
+    }
+  },
+  os: {
+    loadavg: [ 6.68896484375, 4.4140625, 3.52490234375 ],
+    uptime: 159108
+  },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 360,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1088,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1213,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1037,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1061,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 103,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1159,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: /Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:68
+  		})
+  		 ^
+  
+  SyntaxError: Unexpected token ')'
+      at Object.compileFunction (node:vm:360:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+      at Module._compile (node:internal/modules/cjs/loader:1123:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+      at Module.load (node:internal/modules/cjs/loader:1037:32)
+      at Module._load (node:internal/modules/cjs/loader:878:12)
+      at Module.require (node:internal/modules/cjs/loader:1061:19)
+      at require (node:internal/modules/cjs/helpers:103:18)
+      at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)
+      at Module._compile (node:internal/modules/cjs/loader:1159:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token ')'\n" +
+    '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:68\n' +
+    '\t\t})\n' +
+    '\t\t ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  stack: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:68\n' +
+    '\t\t})\n' +
+    '\t\t ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  exception: true,
+  date: 'Mon Dec 12 2022 14:05:17 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 15893,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 79986688,
+      heapTotal: 35979264,
+      heapUsed: 25445912,
+      external: 19729678,
+      arrayBuffers: 18849005
+    }
+  },
+  os: {
+    loadavg: [ 2.05126953125, 3.3115234375, 2.90673828125 ],
+    uptime: 162135
+  },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 360,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1088,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1213,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1037,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1061,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 103,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1159,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: /Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:64
+  				})
+  				 ^
+  
+  SyntaxError: Unexpected token ')'
+      at Object.compileFunction (node:vm:360:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+      at Module._compile (node:internal/modules/cjs/loader:1123:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+      at Module.load (node:internal/modules/cjs/loader:1037:32)
+      at Module._load (node:internal/modules/cjs/loader:878:12)
+      at Module.require (node:internal/modules/cjs/loader:1061:19)
+      at require (node:internal/modules/cjs/helpers:103:18)
+      at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)
+      at Module._compile (node:internal/modules/cjs/loader:1159:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token ')'\n" +
+    '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:64\n' +
+    '\t\t\t\t})\n' +
+    '\t\t\t\t ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  stack: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:64\n' +
+    '\t\t\t\t})\n' +
+    '\t\t\t\t ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  exception: true,
+  date: 'Mon Dec 12 2022 14:05:26 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 15913,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 81281024,
+      heapTotal: 35979264,
+      heapUsed: 25319912,
+      external: 19703863,
+      arrayBuffers: 18823190
+    }
+  },
+  os: {
+    loadavg: [ 1.96923828125, 3.25146484375, 2.89013671875 ],
+    uptime: 162144
+  },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 360,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1088,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1213,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1037,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1061,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 103,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1159,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: /Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:65
+  		})
+  		 ^
+  
+  SyntaxError: Unexpected token ')'
+      at Object.compileFunction (node:vm:360:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+      at Module._compile (node:internal/modules/cjs/loader:1123:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+      at Module.load (node:internal/modules/cjs/loader:1037:32)
+      at Module._load (node:internal/modules/cjs/loader:878:12)
+      at Module.require (node:internal/modules/cjs/loader:1061:19)
+      at require (node:internal/modules/cjs/helpers:103:18)
+      at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)
+      at Module._compile (node:internal/modules/cjs/loader:1159:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token ')'\n" +
+    '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:65\n' +
+    '\t\t})\n' +
+    '\t\t ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  stack: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:65\n' +
+    '\t\t})\n' +
+    '\t\t ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  exception: true,
+  date: 'Mon Dec 12 2022 14:05:38 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 15925,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 80084992,
+      heapTotal: 36241408,
+      heapUsed: 25474544,
+      external: 19703863,
+      arrayBuffers: 18823190
+    }
+  },
+  os: {
+    loadavg: [ 2.0537109375, 3.2265625, 2.88525390625 ],
+    uptime: 162156
+  },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 360,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1088,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1213,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1037,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1061,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 103,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1159,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: /Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:61
+  	const client = await Client.findOne({resetPasswordToken: req.params.token,
+  	               ^^^^^
+  
+  SyntaxError: await is only valid in async functions and the top level bodies of modules
+      at Object.compileFunction (node:vm:360:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+      at Module._compile (node:internal/modules/cjs/loader:1123:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+      at Module.load (node:internal/modules/cjs/loader:1037:32)
+      at Module._load (node:internal/modules/cjs/loader:878:12)
+      at Module.require (node:internal/modules/cjs/loader:1061:19)
+      at require (node:internal/modules/cjs/helpers:103:18)
+      at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)
+      at Module._compile (node:internal/modules/cjs/loader:1159:14),
+  level: 'error',
+  message: 'uncaughtException: await is only valid in async functions and the top level bodies of modules\n' +
+    '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:61\n' +
+    '\tconst client = await Client.findOne({resetPasswordToken: req.params.token,\n' +
+    '\t               ^^^^^\n' +
+    '\n' +
+    'SyntaxError: await is only valid in async functions and the top level bodies of modules\n' +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  stack: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:61\n' +
+    '\tconst client = await Client.findOne({resetPasswordToken: req.params.token,\n' +
+    '\t               ^^^^^\n' +
+    '\n' +
+    'SyntaxError: await is only valid in async functions and the top level bodies of modules\n' +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  exception: true,
+  date: 'Mon Dec 12 2022 14:13:36 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 16037,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 78135296,
+      heapTotal: 35979264,
+      heapUsed: 25402912,
+      external: 19734949,
+      arrayBuffers: 18854276
+    }
+  },
+  os: {
+    loadavg: [ 1.82568359375, 1.94921875, 2.33740234375 ],
+    uptime: 162634
+  },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 360,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1088,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1213,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1037,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1061,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 103,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1159,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: /Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:70
+  		.then((user) => {
+  		^
+  
+  SyntaxError: Unexpected token '.'
+      at Object.compileFunction (node:vm:360:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+      at Module._compile (node:internal/modules/cjs/loader:1123:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+      at Module.load (node:internal/modules/cjs/loader:1037:32)
+      at Module._load (node:internal/modules/cjs/loader:878:12)
+      at Module.require (node:internal/modules/cjs/loader:1061:19)
+      at require (node:internal/modules/cjs/helpers:103:18)
+      at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)
+      at Module._compile (node:internal/modules/cjs/loader:1159:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token '.'\n" +
+    '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:70\n' +
+    '\t\t.then((user) => {\n' +
+    '\t\t^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token '.'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  stack: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:70\n' +
+    '\t\t.then((user) => {\n' +
+    '\t\t^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token '.'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  exception: true,
+  date: 'Mon Dec 12 2022 14:14:28 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 16078,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 79249408,
+      heapTotal: 35979264,
+      heapUsed: 25393016,
+      external: 19712010,
+      arrayBuffers: 18831337
+    }
+  },
+  os: {
+    loadavg: [ 1.490234375, 1.85693359375, 2.2802734375 ],
+    uptime: 162686
+  },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 360,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1088,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1213,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1037,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1061,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 103,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1159,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: /Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:75
+  	const client = await Client.findOne({resetPasswordToken: req.params.token,
+  	               ^^^^^
+  
+  SyntaxError: await is only valid in async functions and the top level bodies of modules
+      at Object.compileFunction (node:vm:360:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+      at Module._compile (node:internal/modules/cjs/loader:1123:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+      at Module.load (node:internal/modules/cjs/loader:1037:32)
+      at Module._load (node:internal/modules/cjs/loader:878:12)
+      at Module.require (node:internal/modules/cjs/loader:1061:19)
+      at require (node:internal/modules/cjs/helpers:103:18)
+      at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)
+      at Module._compile (node:internal/modules/cjs/loader:1159:14),
+  level: 'error',
+  message: 'uncaughtException: await is only valid in async functions and the top level bodies of modules\n' +
+    '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:75\n' +
+    '\tconst client = await Client.findOne({resetPasswordToken: req.params.token,\n' +
+    '\t               ^^^^^\n' +
+    '\n' +
+    'SyntaxError: await is only valid in async functions and the top level bodies of modules\n' +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  stack: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:75\n' +
+    '\tconst client = await Client.findOne({resetPasswordToken: req.params.token,\n' +
+    '\t               ^^^^^\n' +
+    '\n' +
+    'SyntaxError: await is only valid in async functions and the top level bodies of modules\n' +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  exception: true,
+  date: 'Mon Dec 12 2022 14:20:22 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 16215,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 78217216,
+      heapTotal: 35979264,
+      heapUsed: 25449512,
+      external: 19734949,
+      arrayBuffers: 18854276
+    }
+  },
+  os: {
+    loadavg: [ 1.62353515625, 1.73974609375, 2.07470703125 ],
+    uptime: 163040
+  },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 360,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1088,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1213,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1037,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1061,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 103,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1159,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: /Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:75
+  	const client = await Client.findOne({resetPasswordToken: token,
+  	               ^^^^^
+  
+  SyntaxError: await is only valid in async functions and the top level bodies of modules
+      at Object.compileFunction (node:vm:360:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+      at Module._compile (node:internal/modules/cjs/loader:1123:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+      at Module.load (node:internal/modules/cjs/loader:1037:32)
+      at Module._load (node:internal/modules/cjs/loader:878:12)
+      at Module.require (node:internal/modules/cjs/loader:1061:19)
+      at require (node:internal/modules/cjs/helpers:103:18)
+      at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)
+      at Module._compile (node:internal/modules/cjs/loader:1159:14),
+  level: 'error',
+  message: 'uncaughtException: await is only valid in async functions and the top level bodies of modules\n' +
+    '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:75\n' +
+    '\tconst client = await Client.findOne({resetPasswordToken: token,\n' +
+    '\t               ^^^^^\n' +
+    '\n' +
+    'SyntaxError: await is only valid in async functions and the top level bodies of modules\n' +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  stack: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:75\n' +
+    '\tconst client = await Client.findOne({resetPasswordToken: token,\n' +
+    '\t               ^^^^^\n' +
+    '\n' +
+    'SyntaxError: await is only valid in async functions and the top level bodies of modules\n' +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  exception: true,
+  date: 'Mon Dec 12 2022 14:20:35 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 16233,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 79216640,
+      heapTotal: 35979264,
+      heapUsed: 25252944,
+      external: 19714107,
+      arrayBuffers: 18833434
+    }
+  },
+  os: { loadavg: [ 1.3984375, 1.685546875, 2.0498046875 ], uptime: 163053 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 360,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1088,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1213,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1037,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1061,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 103,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1159,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: /Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:110
+  	});
+  	 ^
+  
+  SyntaxError: Unexpected token ')'
+      at Object.compileFunction (node:vm:360:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+      at Module._compile (node:internal/modules/cjs/loader:1123:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+      at Module.load (node:internal/modules/cjs/loader:1037:32)
+      at Module._load (node:internal/modules/cjs/loader:878:12)
+      at Module.require (node:internal/modules/cjs/loader:1061:19)
+      at require (node:internal/modules/cjs/helpers:103:18)
+      at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)
+      at Module._compile (node:internal/modules/cjs/loader:1159:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token ')'\n" +
+    '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:110\n' +
+    '\t});\n' +
+    '\t ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  stack: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:110\n' +
+    '\t});\n' +
+    '\t ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  exception: true,
+  date: 'Mon Dec 12 2022 14:21:05 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 16260,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 79855616,
+      heapTotal: 35979264,
+      heapUsed: 25580312,
+      external: 19729678,
+      arrayBuffers: 18849005
+    }
+  },
+  os: {
+    loadavg: [ 1.40283203125, 1.66455078125, 2.029296875 ],
+    uptime: 163083
+  },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 360,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1088,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1213,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1037,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1061,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 103,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1159,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: /Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:110
+  	});
+  	 ^
+  
+  SyntaxError: Unexpected token ')'
+      at Object.compileFunction (node:vm:360:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+      at Module._compile (node:internal/modules/cjs/loader:1123:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+      at Module.load (node:internal/modules/cjs/loader:1037:32)
+      at Module._load (node:internal/modules/cjs/loader:878:12)
+      at Module.require (node:internal/modules/cjs/loader:1061:19)
+      at require (node:internal/modules/cjs/helpers:103:18)
+      at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)
+      at Module._compile (node:internal/modules/cjs/loader:1159:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token ')'\n" +
+    '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:110\n' +
+    '\t});\n' +
+    '\t ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  stack: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:110\n' +
+    '\t});\n' +
+    '\t ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  exception: true,
+  date: 'Mon Dec 12 2022 14:21:13 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 16273,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 79396864,
+      heapTotal: 35979264,
+      heapUsed: 25270816,
+      external: 19705915,
+      arrayBuffers: 18825242
+    }
+  },
+  os: {
+    loadavg: [ 1.3701171875, 1.6533203125, 2.02294921875 ],
+    uptime: 163091
+  },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 360,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1088,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1213,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1037,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1061,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 103,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1159,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: /Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:110
+  	});
+  	 ^
+  
+  SyntaxError: Unexpected token ')'
+      at Object.compileFunction (node:vm:360:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+      at Module._compile (node:internal/modules/cjs/loader:1123:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+      at Module.load (node:internal/modules/cjs/loader:1037:32)
+      at Module._load (node:internal/modules/cjs/loader:878:12)
+      at Module.require (node:internal/modules/cjs/loader:1061:19)
+      at require (node:internal/modules/cjs/helpers:103:18)
+      at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)
+      at Module._compile (node:internal/modules/cjs/loader:1159:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token ')'\n" +
+    '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:110\n' +
+    '\t});\n' +
+    '\t ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  stack: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:110\n' +
+    '\t});\n' +
+    '\t ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  exception: true,
+  date: 'Mon Dec 12 2022 14:21:17 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 16283,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 80035840,
+      heapTotal: 35979264,
+      heapUsed: 25470000,
+      external: 19714107,
+      arrayBuffers: 18833434
+    }
+  },
+  os: {
+    loadavg: [ 1.26025390625, 1.62548828125, 2.0107421875 ],
+    uptime: 163095
+  },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 360,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1088,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1213,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1037,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1061,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 103,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1159,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: /Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:110
+  	});
+  	 ^
+  
+  SyntaxError: Unexpected token ')'
+      at Object.compileFunction (node:vm:360:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+      at Module._compile (node:internal/modules/cjs/loader:1123:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+      at Module.load (node:internal/modules/cjs/loader:1037:32)
+      at Module._load (node:internal/modules/cjs/loader:878:12)
+      at Module.require (node:internal/modules/cjs/loader:1061:19)
+      at require (node:internal/modules/cjs/helpers:103:18)
+      at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)
+      at Module._compile (node:internal/modules/cjs/loader:1159:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token ')'\n" +
+    '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:110\n' +
+    '\t});\n' +
+    '\t ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  stack: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:110\n' +
+    '\t});\n' +
+    '\t ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  exception: true,
+  date: 'Mon Dec 12 2022 14:21:27 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 16293,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 80199680,
+      heapTotal: 36241408,
+      heapUsed: 25417272,
+      external: 19714107,
+      arrayBuffers: 18833434
+    }
+  },
+  os: {
+    loadavg: [ 1.44091796875, 1.6533203125, 2.015625 ],
+    uptime: 163105
+  },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 360,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1088,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1213,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1037,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1061,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 103,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1159,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: /Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:109
+  	});
+  	 ^
+  
+  SyntaxError: Unexpected token ')'
+      at Object.compileFunction (node:vm:360:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+      at Module._compile (node:internal/modules/cjs/loader:1123:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+      at Module.load (node:internal/modules/cjs/loader:1037:32)
+      at Module._load (node:internal/modules/cjs/loader:878:12)
+      at Module.require (node:internal/modules/cjs/loader:1061:19)
+      at require (node:internal/modules/cjs/helpers:103:18)
+      at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)
+      at Module._compile (node:internal/modules/cjs/loader:1159:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token ')'\n" +
+    '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:109\n' +
+    '\t});\n' +
+    '\t ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  stack: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:109\n' +
+    '\t});\n' +
+    '\t ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  exception: true,
+  date: 'Mon Dec 12 2022 14:22:18 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 16324,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 77053952,
+      heapTotal: 35979264,
+      heapUsed: 25202448,
+      external: 19703863,
+      arrayBuffers: 18823190
+    }
+  },
+  os: {
+    loadavg: [ 1.8486328125, 1.73291015625, 2.0224609375 ],
+    uptime: 163156
+  },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 360,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1088,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1213,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1037,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1061,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 103,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1159,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: /Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:109
+  	});
+  	 ^
+  
+  SyntaxError: Unexpected token ')'
+      at Object.compileFunction (node:vm:360:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+      at Module._compile (node:internal/modules/cjs/loader:1123:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+      at Module.load (node:internal/modules/cjs/loader:1037:32)
+      at Module._load (node:internal/modules/cjs/loader:878:12)
+      at Module.require (node:internal/modules/cjs/loader:1061:19)
+      at require (node:internal/modules/cjs/helpers:103:18)
+      at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)
+      at Module._compile (node:internal/modules/cjs/loader:1159:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token ')'\n" +
+    '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:109\n' +
+    '\t});\n' +
+    '\t ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  stack: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:109\n' +
+    '\t});\n' +
+    '\t ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  exception: true,
+  date: 'Mon Dec 12 2022 14:22:26 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 16336,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 79052800,
+      heapTotal: 36241408,
+      heapUsed: 25448608,
+      external: 19703863,
+      arrayBuffers: 18823190
+    }
+  },
+  os: {
+    loadavg: [ 1.86474609375, 1.7412109375, 2.021484375 ],
+    uptime: 163164
+  },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 360,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1088,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1213,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1037,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1061,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 103,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1159,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: /Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:109
+  	});
+  	 ^
+  
+  SyntaxError: Unexpected token ')'
+      at Object.compileFunction (node:vm:360:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+      at Module._compile (node:internal/modules/cjs/loader:1123:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+      at Module.load (node:internal/modules/cjs/loader:1037:32)
+      at Module._load (node:internal/modules/cjs/loader:878:12)
+      at Module.require (node:internal/modules/cjs/loader:1061:19)
+      at require (node:internal/modules/cjs/helpers:103:18)
+      at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)
+      at Module._compile (node:internal/modules/cjs/loader:1159:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token ')'\n" +
+    '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:109\n' +
+    '\t});\n' +
+    '\t ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  stack: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/auth/index.js:109\n' +
+    '\t});\n' +
+    '\t ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js:2:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  exception: true,
+  date: 'Mon Dec 12 2022 14:22:40 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 16347,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 80265216,
+      heapTotal: 35979264,
+      heapUsed: 25432392,
+      external: 19734949,
+      arrayBuffers: 18854276
+    }
+  },
+  os: {
+    loadavg: [ 1.6728515625, 1.7041015625, 2.00244140625 ],
+    uptime: 163178
+  },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 360,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1088,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1213,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1037,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1061,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 103,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/auth/index.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1159,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
