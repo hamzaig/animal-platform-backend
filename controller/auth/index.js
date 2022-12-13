@@ -82,8 +82,8 @@ const resetPassword = async (req, res) => {
 		});
 	}
 	client.password = password;
-	// client.resetPasswordToken = undefined;
-	// client.resetPasswordExpires = undefined;
+	client.resetPasswordToken = undefined;
+	client.resetPasswordExpires = undefined;
 	await client.save();
 	// eslint-disable-next-line no-unused-vars
 	const mailOptions = {
