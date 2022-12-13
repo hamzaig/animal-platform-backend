@@ -9,13 +9,13 @@ const clientSchema = new mongoose.Schema(
 	{
 		firstName: {
 			type: String,
-			required: 'First Name is required.',
+			required: true,
 			trim: true,
 			lowercase: true,
 		},
 		lastName: {
 			type: String,
-			required: 'Last Name is required.',
+			required: true,
 			trim: true,
 			lowercase: true,
 		},
@@ -24,20 +24,20 @@ const clientSchema = new mongoose.Schema(
 		},
 		email: {
 			type: String,
-			required: 'Email is required.',
+			required: true,
 			trim: true,
 			lowercase: true,
 			unique: true,
-			validate: [validateEmail, 'Please fill a valid email address'],
+			validate: [validateEmail, 'Vul een geldig e-mailadres in'],
 			match: [
 				// eslint-disable-next-line no-useless-escape
 				/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
-				'Please fill a valid email address',
+				'Vul een geldig e-mailadres in',
 			],
 		},
 		password: {
 			type: String,
-			required: 'Password is required.',
+			required: true,
 			minlength: 8,
 		},
 		organizationId: {
@@ -90,11 +90,11 @@ clientSchema.statics.findByCredentials = async (email, password) => {
 	// eslint-disable-next-line no-use-before-define
 	const client = await Client.findOne({ email });
 	if (!client) {
-		throw new Error('Unable to login, Client User not Found!');
+		throw new Error('Kan niet inloggen, Client Gebruiker niet gevonden!');
 	}
 	const isMatch = await bcrypt.compare(password, client.password);
 	if (!isMatch) {
-		throw new Error('Unabale to login, Client Password Incorrect!');
+		throw new Error('Niet in staat om in te loggen, klantwachtwoord onjuist!');
 	}
 	return client;
 };
