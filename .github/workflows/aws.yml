@@ -26,8 +26,14 @@ jobs:
       - name: Create env file
         run: |
           touch .env
+          echo AWS_ACCESS_KEY_ID='${{ secrets.AWS_ACCESS_KEY_ID }}' >> .env
+          echo AWS_SECRET_ACCESS_KEY='${{ secrets.AWS_SECRET_ACCESS_KEY }}' >> .env
+          echo BASE_URL_FRONTEND='${{ secrets.BASE_URL_FRONTEND }}' >> .env
+          echo FROM_EMAIL='${{ secrets.FROM_EMAIL }}' >> .env
+          echo JWT_SECRET='${{ secrets.JWT_SECRET }}' >> .env
           echo MONGODB_ATLAS_URI='${{ secrets.MONGODB_ATLAS_URI }}' >> .env
           echo PORT='${{ secrets.PORT }}' >> .env
+          echo SERVER_URL='${{ secrets.SERVER_URL }}' >> .env
           cat .env
       - run: npm i
       - run: npm run
