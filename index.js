@@ -8,7 +8,13 @@ require('./middleware/logger')();
 const app = express();
 const port = process.env.PORT || 8000;
 
-app.use(cors());
+const corsOption = {
+	origin: true,
+	methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+	credentials: true,
+	exposedHeaders: ['authorization'],
+};
+app.use(cors(corsOption));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 app.use(express.json({ limit: '10mb' }));
