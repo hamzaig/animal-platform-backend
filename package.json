@@ -10,7 +10,12 @@
 		"format": "prettier . --write",
 		"prepare": "husky install"
 	},
-	"keywords": [],
+	"engines": {
+		"node": "14.x"
+	},
+	"keywords": [
+		"heroku"
+	],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
