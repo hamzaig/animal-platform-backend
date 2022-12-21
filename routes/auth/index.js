@@ -13,7 +13,7 @@ const {
 	signupValidation,
 	loginValidation,
 	recoverValidation,
-} = require('./validate');
+} = require('./validate'); //
 
 app.post('/sign-up', Validator(signupValidation, 'body'), signUp);
 app.post('/login', Validator(loginValidation, 'body'), login);
