@@ -1,0 +1,468 @@
+{
+  error: /Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/profile-setting/index.js:63
+  const updatePersonalInformation = async (req, res) => {
+        ^
+  
+  SyntaxError: Identifier 'updatePersonalInformation' has already been declared
+      at Object.compileFunction (node:vm:360:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+      at Module._compile (node:internal/modules/cjs/loader:1123:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+      at Module.load (node:internal/modules/cjs/loader:1037:32)
+      at Module._load (node:internal/modules/cjs/loader:878:12)
+      at Module.require (node:internal/modules/cjs/loader:1061:19)
+      at require (node:internal/modules/cjs/helpers:103:18)
+      at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/profile-setting/index.js:5:5)
+      at Module._compile (node:internal/modules/cjs/loader:1159:14),
+  level: 'error',
+  message: "uncaughtException: Identifier 'updatePersonalInformation' has already been declared\n" +
+    '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/profile-setting/index.js:63\n' +
+    'const updatePersonalInformation = async (req, res) => {\n' +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'updatePersonalInformation' has already been declared\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/profile-setting/index.js:5:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  stack: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/profile-setting/index.js:63\n' +
+    'const updatePersonalInformation = async (req, res) => {\n' +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'updatePersonalInformation' has already been declared\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/profile-setting/index.js:5:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  exception: true,
+  date: 'Sun Jan 08 2023 19:01:50 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 6641,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 93437952,
+      heapTotal: 61620224,
+      heapUsed: 35901464,
+      external: 19719182,
+      arrayBuffers: 18821750
+    }
+  },
+  os: {
+    loadavg: [ 2.009765625, 2.27685546875, 2.24365234375 ],
+    uptime: 2512759
+  },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 360,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1088,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1213,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1037,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1061,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 103,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/profile-setting/index.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1159,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: /Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/profile-setting/validate.js:89
+  	contactUsAtYup.string().trim().required('"practice" is Required.'),
+  	              ^
+  
+  SyntaxError: Unexpected token '.'
+      at Object.compileFunction (node:vm:360:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+      at Module._compile (node:internal/modules/cjs/loader:1123:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+      at Module.load (node:internal/modules/cjs/loader:1037:32)
+      at Module._load (node:internal/modules/cjs/loader:878:12)
+      at Module.require (node:internal/modules/cjs/loader:1061:19)
+      at require (node:internal/modules/cjs/helpers:103:18)
+      at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/profile-setting/index.js:12:5)
+      at Module._compile (node:internal/modules/cjs/loader:1159:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token '.'\n" +
+    '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/profile-setting/validate.js:89\n' +
+    `\tcontactUsAtYup.string().trim().required('"practice" is Required.'),\n` +
+    '\t              ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token '.'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/profile-setting/index.js:12:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  stack: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/profile-setting/validate.js:89\n' +
+    `\tcontactUsAtYup.string().trim().required('"practice" is Required.'),\n` +
+    '\t              ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token '.'\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/profile-setting/index.js:12:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  exception: true,
+  date: 'Sun Jan 08 2023 19:17:55 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 7239,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 93028352,
+      heapTotal: 61358080,
+      heapUsed: 36151424,
+      external: 19717130,
+      arrayBuffers: 18819698
+    }
+  },
+  os: {
+    loadavg: [ 2.2734375, 2.2041015625, 2.1728515625 ],
+    uptime: 2513724
+  },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 360,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1088,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1213,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1037,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1061,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 103,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/profile-setting/index.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1159,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: /Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/profile-setting/index.js:103
+  const updateVeterinarianInformation = async (req, res) => {
+        ^
+  
+  SyntaxError: Identifier 'updateVeterinarianInformation' has already been declared
+      at Object.compileFunction (node:vm:360:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+      at Module._compile (node:internal/modules/cjs/loader:1123:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+      at Module.load (node:internal/modules/cjs/loader:1037:32)
+      at Module._load (node:internal/modules/cjs/loader:878:12)
+      at Module.require (node:internal/modules/cjs/loader:1061:19)
+      at require (node:internal/modules/cjs/helpers:103:18)
+      at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/profile-setting/index.js:6:5)
+      at Module._compile (node:internal/modules/cjs/loader:1159:14),
+  level: 'error',
+  message: "uncaughtException: Identifier 'updateVeterinarianInformation' has already been declared\n" +
+    '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/profile-setting/index.js:103\n' +
+    'const updateVeterinarianInformation = async (req, res) => {\n' +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'updateVeterinarianInformation' has already been declared\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/profile-setting/index.js:6:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  stack: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/controller/profile-setting/index.js:103\n' +
+    'const updateVeterinarianInformation = async (req, res) => {\n' +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'updateVeterinarianInformation' has already been declared\n" +
+    '    at Object.compileFunction (node:vm:360:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1088:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1123:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1037:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:878:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1061:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:103:18)\n' +
+    '    at Object.<anonymous> (/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/profile-setting/index.js:6:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1159:14)',
+  exception: true,
+  date: 'Sun Jan 08 2023 19:20:32 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 7403,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 93831168,
+      heapTotal: 61620224,
+      heapUsed: 36231064,
+      external: 19708938,
+      arrayBuffers: 18811506
+    }
+  },
+  os: {
+    loadavg: [ 1.9619140625, 2.00439453125, 2.08642578125 ],
+    uptime: 2513881
+  },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 360,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1088,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1213,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1037,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1061,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 103,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/Users/hamzaig/Desktop/projects/rubin/animal-platform-backend/routes/profile-setting/index.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1159,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
