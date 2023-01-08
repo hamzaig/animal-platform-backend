@@ -35,6 +35,8 @@ const clientSchema = new mongoose.Schema(
 				'Vul een geldig e-mailadres in',
 			],
 		},
+		phoneNumber1: String,
+		phoneNumber2: String,
 		password: {
 			type: String,
 			required: true,
@@ -44,6 +46,13 @@ const clientSchema = new mongoose.Schema(
 			type: mongoose.Types.ObjectId,
 			required: true,
 		},
+		salutation: {
+			type: String,
+		},
+		initials: {
+			type: String,
+		},
+
 		tokens: [
 			{
 				token: {
@@ -57,6 +66,33 @@ const clientSchema = new mongoose.Schema(
 		},
 		resetPasswordExpires: {
 			type: Date,
+		},
+		addressInformation: {
+			streetAndHouseNo: String,
+			postalCode: String,
+			place: String,
+			country: String,
+		},
+		veterinarianData: {
+			practice: String,
+			veterinarianName: String,
+			streetAndHouseNo: String,
+			postalCode: String,
+			place: String,
+			country: String,
+			emailAddress: String,
+			phoneNumber: String,
+		},
+		emergenciesInfo: {
+			contactUsAt: String,
+			fullName: String,
+			emailAddress: String,
+			phoneNumber: String,
+			comments: String,
+		},
+		financialsInfo: {
+			iban: String,
+			accountHolderName: String,
 		},
 	},
 	{
