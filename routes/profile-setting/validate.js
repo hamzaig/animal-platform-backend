@@ -7,8 +7,7 @@ const {
 const updatePersonalInformationSchema = Yup.object().shape({
 	profilePicture: Yup.string()
 		.matches(base64ImageRegex, 'Profile Picture Must be in Base64 Format')
-		.trim()
-		.required('"profielfoto" is verplicht'),
+		.trim(),
 	organizationId: Yup.string()
 		.trim()
 		.matches(
@@ -67,6 +66,43 @@ const updatePersonalInformationSchema = Yup.object().shape({
 	),
 });
 
+const updateVeterinarianInformationSchema = Yup.object().shape({
+	practice: Yup.string().trim().required('"practice" is Required.'),
+	veterinarianName: Yup.string()
+		.trim()
+		.required('"veterinarianName" is Required.'),
+	streetAndHouseNo: Yup.string()
+		.trim()
+		.required('"streetAndHouseNo" is Required.'),
+	postalCode: Yup.string().trim().required('"postalCode" is Required.'),
+	place: Yup.string().trim().required('"place" is Required.'),
+	country: Yup.string().trim().required('"country" is Required.'),
+	emailAddress: Yup.string()
+		.email('emailAddress Must be an Email')
+		.trim()
+		.required('"emailAddress" is Required.'),
+	phoneNumber: Yup.string().trim().required('"phoneNumber" is Required.'),
+});
+
+const updateEmergenciesInformationSchema = Yup.object().shape({
+	contactUsAt: Yup.string()
+		.trim()
+		.required()
+		.oneOf(['Bellen', 'SMS', 'E-mail']),
+	fullName: Yup.string().trim().required(),
+	emailAddress: Yup.string().trim().required(),
+	phoneNumber: Yup.string().trim().required(),
+	comments: Yup.string().trim(),
+});
+
+const updateFinancialInformationSchema = Yup.object().shape({
+	iban: Yup.string().trim().required(),
+	accountHolderName: Yup.string().trim().required(),
+});
+
 module.exports = {
 	updatePersonalInformationSchema,
+	updateVeterinarianInformationSchema,
+	updateEmergenciesInformationSchema,
+	updateFinancialInformationSchema,
 };

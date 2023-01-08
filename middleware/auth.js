@@ -13,6 +13,8 @@ const auth = async (req, res, next) => {
 		if (!client) {
 			throw new Error('Invalid Token!');
 		}
+		// eslint-disable-next-line no-underscore-dangle
+		req.clientId = client._id;
 		req.client = client;
 		req.token = token;
 		next();
