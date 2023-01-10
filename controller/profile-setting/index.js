@@ -97,7 +97,7 @@ const updateVeterinarianInformation = async (req, res) => {
 		},
 		{ upsert: true, new: true }
 	);
-	return res.send({ updatedClient });
+	return res.send({ updatedClient, message: 'succesvol geüpdatet.' });
 };
 
 const updateEmergenciesInformation = async (req, res) => {
@@ -123,7 +123,7 @@ const updateEmergenciesInformation = async (req, res) => {
 		},
 		{ upsert: true, new: true }
 	);
-	return res.send({ updatedClient });
+	return res.send({ updatedClient, message: 'succesvol geüpdatet.' });
 };
 
 const updateFinancialInformation = async (req, res) => {
@@ -145,7 +145,7 @@ const updateFinancialInformation = async (req, res) => {
 		},
 		{ upsert: true, new: true }
 	);
-	return res.send({ updatedClient });
+	return res.send({ updatedClient, message: 'succesvol geüpdatet.' });
 };
 
 const getClientInformation = async (req, res) => {

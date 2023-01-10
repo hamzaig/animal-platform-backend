@@ -1,11 +1,4 @@
 const app = require('express').Router();
-const {
-	updatePersonalInformation,
-	updateVeterinarianInformation,
-	updateEmergenciesInformation,
-	getClientInformation,
-	updateFinancialInformation,
-} = require('../../controller/profile-setting');
 const auth = require('../../middleware/auth');
 const Validator = require('../../middleware/validator');
 const {
@@ -14,6 +7,13 @@ const {
 	updateEmergenciesInformationSchema,
 	updateFinancialInformationSchema,
 } = require('./validate');
+const {
+	updatePersonalInformation,
+	updateVeterinarianInformation,
+	updateEmergenciesInformation,
+	getClientInformation,
+	updateFinancialInformation,
+} = require('../../controller/profile-setting');
 
 app.put(
 	'/personal-information',

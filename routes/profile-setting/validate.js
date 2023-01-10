@@ -88,7 +88,7 @@ const updateEmergenciesInformationSchema = Yup.object().shape({
 	contactUsAt: Yup.string()
 		.trim()
 		.required()
-		.oneOf(['Bellen', 'SMS', 'E-mail']),
+		.oneOf(['Bellen', 'SMS', 'E-mail', 'Bellen, SMS of e-mail']),
 	fullName: Yup.string().trim().required(),
 	emailAddress: Yup.string().trim().required(),
 	phoneNumber: Yup.string().trim().required(),
