@@ -207,7 +207,8 @@ const addVaccination = async (req, res) => {
 	if (document) {
 		documentLocation = await uploadBase64S3(
 			document,
-			`${animal}vaccination-vaccinationType`
+			// eslint-disable-next-line no-underscore-dangle
+			`${animal._id}-vaccination-${vaccinationType}`
 		);
 		if (!documentLocation) {
 			documentLocation = '';
