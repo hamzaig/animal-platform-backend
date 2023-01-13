@@ -205,7 +205,10 @@ const addVaccination = async (req, res) => {
 			.send({ error: 'Animal is not Exist for that user.' });
 	}
 	if (document) {
-		documentLocation = await uploadBase64S3(document);
+		documentLocation = await uploadBase64S3(
+			document,
+			`${animal}vaccination-vaccinationType`
+		);
 		if (!documentLocation) {
 			documentLocation = '';
 		}
