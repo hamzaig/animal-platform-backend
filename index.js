@@ -5,6 +5,8 @@ const { dbError, winston, error } = require('./middleware/error');
 require('express-async-errors');
 require('./middleware/logger')();
 
+console.log(new Date(), 'Time now');
+
 const app = express();
 const port = process.env.PORT || 8000;
 
